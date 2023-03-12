@@ -1,0 +1,31 @@
+.headertwo {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.itembtn {
+  display: inline;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: transparent;
+  padding: 3px 8px;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btn:hover {
+  box-shadow: none;
+  background-color: #bbe38f;
+}
+
+.btn:active {
+  background-color: #fff9c4;
+}
