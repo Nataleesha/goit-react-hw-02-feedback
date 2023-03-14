@@ -29,7 +29,10 @@ class App extends Component {
     return (
       <div className="App">
         <Section title="Please leave a feedback">
-          <FeedbackOptions onLeaveFeedback={this.onLeaveFeedback} />
+          <FeedbackOptions
+            options={["good", "neutral", "bad"]}
+            onLeaveFeedback={this.onLeaveFeedback}
+          />
         </Section>
         <Section title="Statistics">
           {!this.state.good && !this.state.neutral && !this.state.bad ? (
